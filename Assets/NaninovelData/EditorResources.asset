@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06386b10f29c770408fc88b031c4d7fd, type: 3}
+  m_Name: EditorResources
+  m_EditorClassIdentifier: 
+  resourceCategories:
+  - Id: Scripts
+    Resources:
+    - Name: TestScript
+      PathPrefix: Scripts
+      Guid: 673e5ec3ee398db40bb70ad2d4bc5964
+  - Id: Characters/a8d397df-6bf8-4d92-a28a-fc5e9bdf9c34
+    Resources:
+    - Name: Happy
+      PathPrefix: Characters/Nanikun
+      Guid: 1f70e83b2eab68748aa13a8b9a33f003
+    - Name: Default
+      PathPrefix: Characters/Nanikun
+      Guid: 6c18ccf944807cb4589e0f15c4190694
+  - Id: Backgrounds/d503a02c-d966-46ff-aa27-1ca5719c8ef7
+    Resources:
+    - Name: Background
+      PathPrefix: Backgrounds/MainBackground
+      Guid: ba8b5833eb4de084f9df8d728b35b174
+  - Id: Characters/95ab9e52-4148-4798-96b7-c02894c3fbad
+    Resources:
+    - Name: Default
+      PathPrefix: Characters/Brain
+      Guid: 85b77375ed2bff945b3d0d24ba125d75

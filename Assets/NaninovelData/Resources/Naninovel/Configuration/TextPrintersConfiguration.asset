@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610509a41f8e448419a7e1a6122c05c0, type: 3}
+  m_Name: TextPrintersConfiguration
+  m_EditorClassIdentifier: 
+  DefaultEasing: 0
+  SceneOrigin: {x: 0.5, y: 0}
+  DefaultPrinterId: Wide
+  MaxRevealDelay: 0.06
+  DefaultMetadata:
+    Implementation: Naninovel.UITextPrinter
+    LoaderConfiguration:
+      PathPrefix: TextPrinters
+      ProviderTypes: 0000000001000000
+    guid: f8cd45aa-7f63-4f32-8d55-1c0e1a8ba90e
+    Pivot: {x: 0.5, y: 0.5}
+    PixelsPerUnit: 100
+  Metadata:
+    ids:
+    - Dialogue
+    - Fullscreen
+    - Wide
+    - Chat
+    - Bubble
+    - TMProDialogue
+    - TMProFullscreen
+    - TMProWide
+    - TMProBubble
+    metas:
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: 26035c64-8e76-45e8-bc13-dbb9e9e9094b
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: 1a9c0832-fb09-405d-a1d3-bce9be23fc17
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: 4f4e4dd3-a020-4593-bc41-1ee7994771b9
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: d96b450d-4193-431b-a05a-aa0f88fc2f96
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: c0f61945-9444-4d95-a7ed-6bd1c4c377b9
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: 06af5883-911e-48eb-be19-dc208a1774bc
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: f1afdd9b-ecb0-4b48-8e80-2c0813516f71
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: dcbca38a-4d3e-48c9-b728-cfacaaac2705
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: fc586b72-545b-403d-b30b-b340842dedb3
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
