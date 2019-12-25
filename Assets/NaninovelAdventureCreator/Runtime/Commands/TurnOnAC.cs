@@ -13,13 +13,11 @@ namespace Naninovel.AC
         /// <summary>
         /// Whether to reset the state and stop all the Naninovel engine services.
         /// </summary>
-        [CommandParameter(optional: true)]
-        public bool Reset { get => GetDynamicParameter(true); set => SetDynamicParameter(value); }
+        public BooleanParameter Reset = true;
         /// <summary>
         /// Whether to disable Naninovel's camera and enable Adventure Creator's main camera.
         /// </summary>
-        [CommandParameter(optional: true)]
-        public bool SwapCameras { get => GetDynamicParameter(true); set => SetDynamicParameter(value); }
+        public BooleanParameter SwapCameras = true;
 
         public override async Task ExecuteAsync (CancellationToken cancellationToken = default)
         {
