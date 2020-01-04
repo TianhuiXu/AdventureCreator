@@ -15,22 +15,31 @@ MonoBehaviour:
   DefaultEasing: 0
   SceneOrigin: {x: 0.5, y: 0}
   ZOffset: 100
+  ZStep: 0.1
   DefaultMetadata:
-    Implementation: Naninovel.SpriteBackground
-    LoaderConfiguration:
+    Implementation: Naninovel.SpriteBackground, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loader:
       PathPrefix: Backgrounds
       ProviderTypes: 0000000001000000
     guid: c3654764-054e-4f8c-8316-6a9902c17a41
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
+    EnableDepthPass: 1
+    DepthAlphaCutoff: 0.5
+    CustomShader: {fileID: 0}
   Metadata:
     ids:
     - MainBackground
     metas:
-    - Implementation: Naninovel.SpriteBackground
-      LoaderConfiguration:
+    - Implementation: Naninovel.SpriteBackground, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
         PathPrefix: Backgrounds
         ProviderTypes: 0000000001000000
       guid: d503a02c-d966-46ff-aa27-1ca5719c8ef7
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomShader: {fileID: 0}

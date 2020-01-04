@@ -20,12 +20,12 @@ MonoBehaviour:
       Guid: 673e5ec3ee398db40bb70ad2d4bc5964
   - Id: Characters/a8d397df-6bf8-4d92-a28a-fc5e9bdf9c34
     Resources:
-    - Name: Happy
-      PathPrefix: Characters/Nanikun
-      Guid: 1f70e83b2eab68748aa13a8b9a33f003
     - Name: Default
       PathPrefix: Characters/Nanikun
       Guid: 6c18ccf944807cb4589e0f15c4190694
+    - Name: Happy
+      PathPrefix: Characters/Nanikun
+      Guid: 1f70e83b2eab68748aa13a8b9a33f003
   - Id: Backgrounds/d503a02c-d966-46ff-aa27-1ca5719c8ef7
     Resources:
     - Name: Background
@@ -33,6 +33,56 @@ MonoBehaviour:
       Guid: ba8b5833eb4de084f9df8d728b35b174
   - Id: Characters/95ab9e52-4148-4798-96b7-c02894c3fbad
     Resources:
-    - Name: Default
+    - Name: Brain
       PathPrefix: Characters/Brain
       Guid: 85b77375ed2bff945b3d0d24ba125d75
+  - Id: Naninovel/ChoiceHandlers/da5605c3-c541-4a69-9814-5876ebda1362
+    Resources:
+    - Name: ButtonList
+      PathPrefix: Naninovel/ChoiceHandlers
+      Guid: 
+  - Id: Naninovel/TextPrinters/26035c64-8e76-45e8-bc13-dbb9e9e9094b
+    Resources:
+    - Name: Dialogue
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/1a9c0832-fb09-405d-a1d3-bce9be23fc17
+    Resources:
+    - Name: Fullscreen
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/4f4e4dd3-a020-4593-bc41-1ee7994771b9
+    Resources:
+    - Name: Wide
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/d96b450d-4193-431b-a05a-aa0f88fc2f96
+    Resources:
+    - Name: Chat
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/c0f61945-9444-4d95-a7ed-6bd1c4c377b9
+    Resources:
+    - Name: Bubble
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/06af5883-911e-48eb-be19-dc208a1774bc
+    Resources:
+    - Name: TMProDialogue
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/f1afdd9b-ecb0-4b48-8e80-2c0813516f71
+    Resources:
+    - Name: TMProFullscreen
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/dcbca38a-4d3e-48c9-b728-cfacaaac2705
+    Resources:
+    - Name: TMProWide
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/fc586b72-545b-403d-b30b-b340842dedb3
+    Resources:
+    - Name: TMProBubble
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 

@@ -86,7 +86,7 @@ namespace AC
             if (TurnOffAC)
                 KickStarter.TurnOffAC();
 
-            if (!Engine.IsInitialized)
+            if (!Engine.Initialized)
                 await RuntimeInitializer.InitializeAsync();
 
             if (SwapCameras)
