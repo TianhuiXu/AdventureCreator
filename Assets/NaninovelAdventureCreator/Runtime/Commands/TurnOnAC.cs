@@ -1,7 +1,7 @@
 ﻿using AC;
 using Naninovel.Commands;
 using System.Threading;
-using System.Threading.Tasks;
+using UniRx.Async;
 
 namespace Naninovel.AC
 {
@@ -19,7 +19,7 @@ namespace Naninovel.AC
         /// </summary>
         public BooleanParameter SwapCameras = true;
 
-        public override async Task ExecuteAsync (CancellationToken cancellationToken = default)
+        public override async UniTask ExecuteAsync (CancellationToken cancellationToken = default)
         {
             if (Reset) await Engine.GetService<StateManager>().ResetStateAsync();
 
