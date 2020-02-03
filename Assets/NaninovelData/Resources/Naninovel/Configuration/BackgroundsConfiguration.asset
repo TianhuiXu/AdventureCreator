@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BackgroundsConfiguration
   m_EditorClassIdentifier: 
   DefaultEasing: 0
+  AutoShowOnModify: 1
   SceneOrigin: {x: 0.5, y: 0}
   ZOffset: 100
   ZStep: 0.1
@@ -22,12 +23,13 @@ MonoBehaviour:
     Loader:
       PathPrefix: Backgrounds
       ProviderTypes: 0000000001000000
-    guid: c3654764-054e-4f8c-8316-6a9902c17a41
+    guid: 8169bc7b-8c4b-4087-8bcc-52aaad1f5210
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
     EnableDepthPass: 1
     DepthAlphaCutoff: 0.5
     CustomShader: {fileID: 0}
+    Poses: []
   Metadata:
     ids:
     - MainBackground
@@ -37,9 +39,10 @@ MonoBehaviour:
       Loader:
         PathPrefix: Backgrounds
         ProviderTypes: 0000000001000000
-      guid: d503a02c-d966-46ff-aa27-1ca5719c8ef7
+      guid: 8636cc9e-3441-4231-a08d-9e2fcccea077
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
       DepthAlphaCutoff: 0.5
       CustomShader: {fileID: 0}
+      Poses: []

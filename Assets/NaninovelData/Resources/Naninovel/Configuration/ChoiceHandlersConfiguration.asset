@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ChoiceHandlersConfiguration
   m_EditorClassIdentifier: 
   DefaultEasing: 0
+  AutoShowOnModify: 1
   DefaultHandlerId: ButtonList
   DefaultMetadata:
     Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
@@ -20,7 +21,7 @@ MonoBehaviour:
     Loader:
       PathPrefix: ChoiceHandlers
       ProviderTypes: 0000000001000000
-    guid: 8f0bd131-d27a-47a4-bf9f-b88c98d0b440
+    guid: 416998c5-521c-4edb-b39f-0901ddffefc8
   Metadata:
     ids:
     - ButtonList
@@ -29,12 +30,12 @@ MonoBehaviour:
     - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: Naninovel/ChoiceHandlers
+        PathPrefix: ChoiceHandlers
         ProviderTypes: 0000000001000000
-      guid: da5605c3-c541-4a69-9814-5876ebda1362
+      guid: 1658f716-2e22-4581-a431-8cf437bbe04a
     - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: Naninovel/ChoiceHandlers
+        PathPrefix: ChoiceHandlers
         ProviderTypes: 0000000001000000
-      guid: c17fac47-62be-4b95-829e-82882cd3967d
+      guid: 58f257db-9b07-42bd-89a0-3da8b00951b8
