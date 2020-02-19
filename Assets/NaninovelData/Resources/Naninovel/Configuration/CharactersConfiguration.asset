@@ -23,7 +23,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
     Loader:
       PathPrefix: Characters
-      ProviderTypes: 0000000001000000
+      ProviderTypes: []
     guid: 1f0b4c84-5304-47ad-832d-73070ac04615
     Pivot: {x: 0.5, y: 0}
     PixelsPerUnit: 100
@@ -54,7 +54,11 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       Loader:
         PathPrefix: Characters
-        ProviderTypes: 0000000001000000
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
       guid: 7706cfc5-8694-4979-b4e6-6d624a8efb79
       Pivot: {x: 0.5, y: 0}
       PixelsPerUnit: 100
@@ -80,7 +84,11 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       Loader:
         PathPrefix: Characters
-        ProviderTypes: 0000000001000000
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
       guid: f62d1a73-0882-43d9-8a92-feff80e1e248
       Pivot: {x: 0.5, y: 0}
       PixelsPerUnit: 100
@@ -104,4 +112,4 @@ MonoBehaviour:
       Poses: []
   AvatarLoader:
     PathPrefix: CharacterAvatars
-    ProviderTypes: 0000000001000000
+    ProviderTypes: []
