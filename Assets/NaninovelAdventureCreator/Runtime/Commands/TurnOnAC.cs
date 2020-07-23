@@ -1,6 +1,5 @@
 ﻿using AC;
 using Naninovel.Commands;
-using System.Threading;
 using UniRx.Async;
 
 namespace Naninovel.AC
