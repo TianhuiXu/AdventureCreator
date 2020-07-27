@@ -5,7 +5,7 @@ Nanikun: Hello there!
 Brain: Oh, hey! We're now in Naninovel mode, right?
 @char Nanikun.Happy wait:false
 Nanikun: Indeed! You can return to Adventure Creator using `@turnOnAC` command in your Naninovel script.
-@turnOnAC
+@turnOnAC action:OnNaninovelExit1
 
 # WormPlaced
 @back Background
@@ -14,4 +14,4 @@ Nanikun: Indeed! You can return to Adventure Creator using `@turnOnAC` command i
 Nanikun: So, did you catch that bird thief?
 Brain: Not yet, but I have a plan.
 Nanikun: Aigh, good luck then!
-@turnOnAC
+@turnOnAC action:OnNaninovelExit2

@@ -182,20 +182,6 @@ PrefabInstance:
       objectReference: {fileID: 1000289352}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 454873372770148ff9abee63e28f0a14, type: 3}
---- !u!114 &2551840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1 &13411522
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,66 +220,6 @@ Transform:
   m_Father: {fileID: 1020634610}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &14615835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 4
-  title: 'Dialogue: Play speech'
-  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
-    displays a message. Subtitles only appear if they are enabled from the Options
-    menu. A 'thinking' effect can be produced by opting to not play any animation."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: 0
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 227
-    width: 300
-    height: 178
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 11400004, guid: 8e7dc85006b744a6d807e68c58a9812b, type: 3}
-  messageText: I don't have time to sit around - I've got to get my lunch back!
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 0
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!114 &16430154 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e,
@@ -464,6 +390,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad1782e1498c14d42b981391318e14d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &38765266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &60224115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,7 +473,7 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 2
   customClassName: 
-  animEngine: {fileID: 144340140}
+  animEngine: {fileID: 875881792}
 --- !u!114 &61421668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -819,6 +759,20 @@ MonoBehaviour:
   parameterValueParameterID: -1
   hideHead: 0
   doLoop: 0
+--- !u!114 &109595108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &113619941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -861,7 +815,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 413028097}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 1610422062}
+  editingAnimEngine: {fileID: 1983945718}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 767750628}
@@ -1112,20 +1066,6 @@ MonoBehaviour:
   soundAction: 0
   affectChildren: 0
   autoEndOtherMusicWhenPlayed: 1
---- !u!114 &144340140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &156049862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1998,7 +1938,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1449656316}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 1256605324}
+  editingAnimEngine: {fileID: 2058395275}
   isPlayer: 1
   playerID: -1
   animChar: {fileID: 11400004, guid: 8e7dc85006b744a6d807e68c58a9812b, type: 3}
@@ -7298,6 +7238,8 @@ Transform:
   - {fileID: 2136668503}
   - {fileID: 1723133686}
   - {fileID: 1075883741}
+  - {fileID: 3781365133901806607}
+  - {fileID: 1615163880}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9047,10 +8989,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 44
-    y: 291
+    x: 307
+    y: 308
     width: 300
-    height: 140
+    height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 590499027}
@@ -9211,20 +9153,6 @@ PrefabInstance:
       objectReference: {fileID: 1854833707}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 3}
---- !u!114 &469029560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &485276608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9787,10 +9715,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 381
-    y: 243
+    x: 547
+    y: 83
     width: 300
-    height: 140
+    height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 590499027}
@@ -10739,7 +10667,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 413028097}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 2123164115}
+  editingAnimEngine: {fileID: 1376003836}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 767750628}
@@ -11495,7 +11423,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1894896011}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 2551840}
+  editingAnimEngine: {fileID: 734657924}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 767750628}
@@ -11546,20 +11474,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 801947157}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &702294972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1 &704863704
 GameObject:
   m_ObjectHideFlags: 0
@@ -11726,6 +11640,20 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &734657924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!1001 &734908523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11785,6 +11713,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 548098141}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &743685712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!1 &753150228
 GameObject:
   m_ObjectHideFlags: 0
@@ -13365,6 +13307,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2454e47dbf358484bb5cfba10d699562, type: 3}
+--- !u!114 &875881792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!1 &890517299
 GameObject:
   m_ObjectHideFlags: 0
@@ -14632,9 +14588,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
+  endAction: 3
   skipAction: 0
-  skipActionActual: {fileID: 0}
+  skipActionActual: {fileID: 1634004750}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -14642,10 +14598,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 227
+    x: 21
+    y: 305
     width: 300
-    height: 178
+    height: 208
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 344633151}
@@ -15071,7 +15027,7 @@ MonoBehaviour:
   linkedAssetTrue: {fileID: 0}
   resultActionFail: 2
   skipActionFail: 3
-  skipActionFailActual: {fileID: 305128089}
+  skipActionFailActual: {fileID: 1851295779}
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   parameterID: -1
@@ -15283,18 +15239,18 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 212
+    height: 232
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 590499027}
   resultActionTrue: 2
   skipActionTrue: 1
-  skipActionTrueActual: {fileID: 485276608}
+  skipActionTrueActual: {fileID: 490076721}
   linkedCutsceneTrue: {fileID: 0}
   linkedAssetTrue: {fileID: 0}
   resultActionFail: 2
   skipActionFail: 2
-  skipActionFailActual: {fileID: 1707528949}
+  skipActionFailActual: {fileID: 467429708}
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   parameterID: -1
@@ -16888,7 +16844,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 413028097}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 1578662375}
+  editingAnimEngine: {fileID: 1628380029}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 767750628}
@@ -17062,20 +17018,6 @@ Transform:
   m_Father: {fileID: 1020634610}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1256605324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1001 &1282950825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18096,6 +18038,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turningStyle: 1
   isSpriteBased: 0
+--- !u!114 &1376003836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!4 &1380215810 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a9d4e17cb5a8745ccad47e11f075de33,
@@ -18305,6 +18261,66 @@ PrefabInstance:
       objectReference: {fileID: 650779642}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 454873372770148ff9abee63e28f0a14, type: 3}
+--- !u!114 &1435535885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3781365133912593871}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: Test action list after exiting first naninovel dialogue option.
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1001 &1442026356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18797,7 +18813,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 413028097}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 702294972}
+  editingAnimEngine: {fileID: 109595108}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 767750628}
@@ -19212,6 +19228,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91d6ab39027244ea689b8f0ec9b5b548, type: 3}
+--- !u!114 &1532215929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!1001 &1534031005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19599,20 +19629,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turningStyle: 1
   isSpriteBased: 0
---- !u!114 &1578662375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &1580001266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19981,20 +19997,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turningStyle: 1
   isSpriteBased: 0
---- !u!114 &1610422062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &1612486477 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e,
@@ -20013,6 +20015,63 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 618930557}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1615163879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1615163880}
+  - component: {fileID: 1615163881}
+  m_Layer: 0
+  m_Name: OnNaninovelExit2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1615163880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615163879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 268260432}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1615163881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615163879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d92fe80d068b41b585731413487d0f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 1927947823}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
 --- !u!1 &1617587653
 GameObject:
   m_ObjectHideFlags: 0
@@ -20136,7 +20195,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1449656316}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 469029560}
+  editingAnimEngine: {fileID: 743685712}
   isPlayer: 1
   playerID: -1
   animChar: {fileID: 11400004, guid: 8e7dc85006b744a6d807e68c58a9812b, type: 3}
@@ -20181,6 +20240,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 896185332}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1628380029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1630407141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20261,7 +20334,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 183
+    height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 344633151}
@@ -20272,7 +20345,7 @@ MonoBehaviour:
   linkedAssetTrue: {fileID: 0}
   resultActionFail: 2
   skipActionFail: 2
-  skipActionFailActual: {fileID: 14615835}
+  skipActionFailActual: {fileID: 957363510}
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   parameterID: -1
@@ -20979,7 +21052,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 526288146}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 1702888232}
+  editingAnimEngine: {fileID: 38765266}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 767750628}
@@ -21012,20 +21085,6 @@ MonoBehaviour:
   parameterValueParameterID: -1
   hideHead: 0
   doLoop: 0
---- !u!114 &1702888232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1001 &1703143958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21170,49 +21229,6 @@ MonoBehaviour:
   moveMethod: 1
   returnToLast: 0
   retainPreviousSpeed: 0
---- !u!114 &1707528949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 740cfc90ae10462439635983b7d1bd0e, type: 3}
-  m_Name: Play Naninovel Script
-  m_EditorClassIdentifier: 
-  id: 2
-  category: 19
-  title: Play Naninovel Script
-  description: Turn off AC (optionally), initialize Naninovel engine (if necessary)
-    and play a Naninovel script with the specified name.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 485276608}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 44
-    y: 291
-    width: 300
-    height: 140
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  ScriptName: TestScript
-  Label: 
-  TurnOffAC: 1
-  SwapCameras: 1
 --- !u!4 &1717370157 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 21e3c91b7a40d449bbdfb972dc09a798,
@@ -21985,7 +22001,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1894896011}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 2092898643}
+  editingAnimEngine: {fileID: 1532215929}
   isPlayer: 0
   playerID: -1
   animChar: {fileID: 767750628}
@@ -22814,6 +22830,66 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 760841522}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1927947823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1615163881}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: Test action list after exiting second naninovel dialogue option.
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &1930018942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23369,7 +23445,7 @@ MonoBehaviour:
     x: 364
     y: 227
     width: 300
-    height: 165
+    height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 344633151}
@@ -23443,6 +23519,20 @@ MonoBehaviour:
   soundAction: 0
   affectChildren: 0
   autoEndOtherMusicWhenPlayed: 1
+--- !u!114 &1983945718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!1001 &1985764678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24034,6 +24124,20 @@ MonoBehaviour:
   moveMethod: 1
   returnToLast: 0
   retainPreviousSpeed: 0
+--- !u!114 &2058395275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &2074829968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24549,20 +24653,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &2123164115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!4 &2136668503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 454873372770148ff9abee63e28f0a14,
@@ -24740,3 +24830,60 @@ MonoBehaviour:
   optionNumber: 1
   constantID: 0
   linkedConversation: {fileID: 696993031}
+--- !u!4 &3781365133901806607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3781365133901832239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 268260432}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3781365133901832239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3781365133901806607}
+  - component: {fileID: 3781365133912593871}
+  m_Layer: 0
+  m_Name: OnNaninovelExit1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &3781365133912593871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3781365133901832239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d92fe80d068b41b585731413487d0f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 1435535885}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1

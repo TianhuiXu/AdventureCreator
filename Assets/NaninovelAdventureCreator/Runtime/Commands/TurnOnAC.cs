@@ -1,6 +1,8 @@
 ﻿using AC;
 using Naninovel.Commands;
+using System.Linq;
 using UniRx.Async;
+using UnityEngine;
 
 namespace Naninovel.AC
 {
@@ -17,6 +19,10 @@ namespace Naninovel.AC
         /// Whether to disable Naninovel's camera and enable Adventure Creator's main camera.
         /// </summary>
         public BooleanParameter SwapCameras = true;
+        /// <summary>
+        /// Name of the action list (gameobject) to play after turning on Adventure Creator.
+        /// </summary>
+        public StringParameter Action;
 
         public override async UniTask ExecuteAsync (CancellationToken cancellationToken = default)
         {
@@ -28,6 +34,17 @@ namespace Naninovel.AC
             {
                 KickStarter.mainCamera.enabled = true;
                 Engine.GetService<CameraManager>().Camera.enabled = false;
+            }
+
+            if (Assigned(Action))
+            {
+                var acionList = Object.FindObjectsOfType<ActionList>().FirstOrDefault(a => a.gameObject.name == Action);
+                if (acionList is null)
+                {
+                    LogErrorWithPosition($"Failed to play `{Action}` Adventure Creator action list: action list with the name not found on scene.");
+                    return;
+                }
+                acionList.RunFromIndex(0);
             }
         }
     }
