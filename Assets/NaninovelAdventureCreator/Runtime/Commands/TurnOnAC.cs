@@ -1,9 +1,10 @@
 ﻿using AC;
+using Naninovel.Commands;
 using System.Linq;
 using UniRx.Async;
 using UnityEngine;
 
-namespace Naninovel.Commands
+namespace Naninovel.AC
 {
     /// <summary>
     /// Enables Adventure Creator and (optionally) resets Naninovel engine.
@@ -19,7 +20,7 @@ namespace Naninovel.Commands
         /// </summary>
         public BooleanParameter SwapCameras = true;
         /// <summary>
-        /// Name of the action list (game object) to play after turning on Adventure Creator.
+        /// Name of the action list (gameobject) to play after turning on Adventure Creator.
         /// </summary>
         public StringParameter Action;
 
