@@ -1,7 +1,5 @@
-﻿using AC;
-using Naninovel.Commands;
-using System.Linq;
-using UniRx.Async;
+﻿using System.Linq;
+using AC;
 using UnityEngine;
 
 namespace Naninovel.AC
@@ -24,7 +22,7 @@ namespace Naninovel.AC
         /// </summary>
         public StringParameter Action;
 
-        public override async UniTask ExecuteAsync (CancellationToken cancellationToken = default)
+        public override async UniTask ExecuteAsync (AsyncToken asyncToken = default)
         {
             if (Reset) await Engine.GetService<StateManager>().ResetStateAsync();
 
@@ -38,13 +36,13 @@ namespace Naninovel.AC
 
             if (Assigned(Action))
             {
-                var acionList = Object.FindObjectsOfType<ActionList>().FirstOrDefault(a => a.gameObject.name == Action);
-                if (acionList is null)
+                var actionList = Object.FindObjectsOfType<ActionList>().FirstOrDefault(a => a.gameObject.name == Action);
+                if (actionList is null)
                 {
                     LogErrorWithPosition($"Failed to play `{Action}` Adventure Creator action list: action list with the name not found on scene.");
                     return;
                 }
-                acionList.RunFromIndex(0);
+                actionList.RunFromIndex(0);
             }
         }
     }
